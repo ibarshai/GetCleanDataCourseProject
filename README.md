@@ -3,7 +3,15 @@ Getting and Cleaning Data Course Project
 
 This repo contains the solution to the course project for Getting and Cleaning Data.
 
-The files used in the run_analysis.R script are contained in a folder called "UCI HAR Dataset" in the working directory. 
+The files used in the run_analysis.R script are contained in a folder called "UCI HAR Dataset" in the working directory. The following files from the original study were used in this analysis:
+
+* 'features_info.txt': Shows information about the variables used on the feature vector.
+* 'features.txt': List of all features.
+* 'activity_labels.txt': Links the class labels with their activity name.
+* 'train/X_train.txt': Training set.
+* 'train/y_train.txt': Training labels.
+* 'test/X_test.txt': Test set.
+* 'test/y_test.txt': Test labels.
 
 The run_analysis.R does the following:
 
