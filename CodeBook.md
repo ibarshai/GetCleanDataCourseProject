@@ -38,6 +38,16 @@ The following are the features for which data is provided. For each, only the me
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
+as well as the following angle mean variables, performing the same simplification and sorting:
+
+* angle(tBodyAccMean,gravity)
+* angle(tBodyAccJerkMean),gravityMean)
+* angle(tBodyGyroMean,gravityMean)
+* angle(tBodyGyroJerkMean,gravityMean)
+* angle(X,gravityMean)
+* angle(Y,gravityMean)
+* angle(Z,gravityMean)
+
 ## Brief summary of analysis
 All of the above operations are performed in the run_analysis.R script. The files used in the run_analysis.R script are contained in a folder called "UCI HAR Dataset" in the working directory. The following files from the original study were used in this analysis:
 
